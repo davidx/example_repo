@@ -1,0 +1,7 @@
+minimum_reviewers: 0
+before:
+ - "sudo apt-get update"
+ - "sudo apt-get install apt-transport-https ca-certificates"
+build_steps:
+ - "uptime"
+merge: true
