@@ -3,5 +3,5 @@ before:
  - "sudo apt-get update"
  - "sudo apt-get install apt-transport-https ca-certificates"
 build_steps:
- - "make test"
+ - "uptime"
 merge: true
