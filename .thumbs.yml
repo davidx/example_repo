@@ -5,3 +5,4 @@ before:
 build_steps:
  - "uptime"
 merge: true
+delete_branch: true
