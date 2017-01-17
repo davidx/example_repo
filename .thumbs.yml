@@ -4,5 +4,6 @@ before:
  - "sudo apt-get install apt-transport-https ca-certificates"
 build_steps:
  - "uptime"
+ - "uptime"
 merge: true
 delete_branch: true
