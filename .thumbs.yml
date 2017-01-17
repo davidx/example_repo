@@ -8,3 +8,4 @@ build_steps:
  - "kerl active"
 merge: true
 otp: R16B03
+delete_branch: true
