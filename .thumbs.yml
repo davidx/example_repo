@@ -5,3 +5,4 @@ before:
 build_steps:
  - "uptime"
 merge: true
+otp: R16B03
