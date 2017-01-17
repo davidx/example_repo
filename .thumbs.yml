@@ -7,4 +7,5 @@ build_steps:
  - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
  - "kerl active"
 merge: true
+delete_branch: true
 otp: R16B03
