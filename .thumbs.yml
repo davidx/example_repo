@@ -4,5 +4,7 @@ before:
  - "sudo apt-get install apt-transport-https ca-certificates"
 build_steps:
  - "uptime"
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+ - "kerl active"
 merge: true
 delete_branch: true
