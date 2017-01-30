@@ -1,9 +1,8 @@
 minimum_reviewers: 1
-before:
- - "sudo apt-get update"
- - "sudo apt-get install apt-transport-https ca-certificates"
 build_steps:
  - "uptime"
  - "uptime"
 merge: true
 delete_branch: true
+merge_method: squash
+otp: R16B03
