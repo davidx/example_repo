@@ -1,7 +1,9 @@
 minimum_reviewers: 1
 build_steps:
  - "uptime"
+ - "uptime"
 merge: true
+delete_branch: true
 merge_method: squash
 build_steps:
  - "uptime"
