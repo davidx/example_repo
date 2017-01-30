@@ -5,5 +5,14 @@ before:
 build_steps:
  - "uptime"
  - "uptime"
+build_steps_R16B03:
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+
+build_steps_18:
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+
+build_steps_19:
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+
 merge: true
 delete_branch: true
