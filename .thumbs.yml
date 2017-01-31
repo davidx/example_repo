@@ -7,4 +7,11 @@ delete_branch: true
 merge: true
 delete_branch: true
 merge_method: squash
-otp: R16B03
+build_steps_R16B03: 
+ - "uptime"
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+build_steps_18:
+ - "uptime"
+ - "env"
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
+
