@@ -13,5 +13,3 @@ build_steps_R16B03:
 build_steps_18:
  - "uptime"
  - "env"
- - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
-
