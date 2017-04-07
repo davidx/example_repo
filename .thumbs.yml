@@ -1,6 +1,7 @@
 minimum_reviewers: 1
 build_steps:
  - "uptime"
+ - "erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell"
 merge: true
 delete_branch: true
  - "uptime"
